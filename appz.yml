@@ -16,7 +16,9 @@ deploy:
     replicas: 1
     port:
     - 3080
-
+    env:
+      - name: BUILD_ENV
+        value: original   # change to sample when needed
 volumes:
   - claim: angular-pvc
     mount: /appz/data/
