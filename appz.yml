@@ -26,5 +26,5 @@ volumes:
 
 properties:
     IMAGE_VARIANT: new
-    revision : 40  
+    revision : 41
     
