@@ -25,6 +25,6 @@ volumes:
     mode: ReadWriteOnce 
 
 properties:
-    IMAGE_VARIANT: new
-    revision : 43
+    #IMAGE_VARIANT: new
+    revision : 44
     
